@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <>
       <MetaTags title="Home" description="Home page" />
-      Home
+      An otherworldly experience for entrepreneurs with a collaborative feel.
     </>
   )
 }
