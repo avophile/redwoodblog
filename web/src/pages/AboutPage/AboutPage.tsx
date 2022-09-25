@@ -5,7 +5,6 @@ const AboutPage = () => {
   return (
     <>
       <MetaTags title="About" description="About page" />
-      About
       <Link to={routes.home()}>Return home</Link>
     </>
   )
