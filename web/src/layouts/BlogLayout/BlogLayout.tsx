@@ -8,9 +8,14 @@ const BlogLayout = ({ children }: BlogLayoutProps) => {
   return (
     <>
       <header>
-        <h1>Redwood Blog</h1>
+        <h1>
+          <Link to={routes.home()}>Extracosm Blog</Link>
+        </h1>
         <nav>
           <ul>
+            <li>
+              <Link to={routes.home()}>Home</Link>
+            </li>
             <li>
               <Link to={routes.about()}>About</Link>
             </li>
